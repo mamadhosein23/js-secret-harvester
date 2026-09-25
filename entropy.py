@@ -12,5 +12,4 @@ def calculate_entropy(data: str) -> float:
         entropy -= probability * math.log2(probability)
     return entropy
 def is_high_entropy(data: str, threshold: float = 4.5, min_len: int = 16) -> bool:
-    """بررسی اینکه آیا رشته آنتروپی بالا و طول مناسب برای توکن/کلید دارد یا خیر."""
   
